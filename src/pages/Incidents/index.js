@@ -45,7 +45,7 @@ export default function Incidents() {
     useEffect(() => {
         loadIncidents();
     }, []);
-
+ 
     return(
         <View style={styles.container}>
             <View style={styles.header}>
